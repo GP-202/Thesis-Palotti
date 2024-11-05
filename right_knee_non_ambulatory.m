@@ -95,9 +95,9 @@ coeffs = polyfit(timeLimited, angoloDestroGinocchioFiltrato, 1); % Regressione l
 angoloRegressione = polyval(coeffs, timeLimited); % Calcolare i valori della retta di regressione
 save("retta_destro", "angoloRegressione");
 
-% Calcolare del coefficiente angolare e del valore medio totale
-coefficienteAngolare = coeffs(1); 
-valoreMedioTotale = mean(angoloRegressione); 
+% Calcolare coefficiente angolare e del valore medio totale
+coefficienteAngolare = coeffs(1); % coefficiente angolare della retta
+valoreMedioTotale = mean(angoloRegressione); % valor medio della retta
 
 % Visualizzare i risultati
 fprintf('Il coefficiente angolare della retta di regressione è: %.4f\n', coefficienteAngolare);
