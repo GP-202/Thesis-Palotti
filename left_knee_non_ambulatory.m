@@ -54,7 +54,7 @@ plot(timeLimited, angoloLimited, 'b-', 'LineWidth', 2);
 title('Left Knee Angle');
 xlabel('Time [s]');
 ylabel('Angle [°]');
-xlim([timeLimited(1) timeLimited(end)]); % Limita l'asse X ai dati disponibili
+xlim([timeLimited(1) timeLimited(end)]);
 grid on;
 
 %% FILTRAGGIO BUTTERWORTH
