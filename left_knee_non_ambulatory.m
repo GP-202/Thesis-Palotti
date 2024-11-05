@@ -34,7 +34,7 @@ for i = 1:numFrames
     angoloSinistroGinocchio(i) = acosd(dotProduct / (normHipKnee * normKneeAnkle));
 end
 
-% Definiscre il frame rate e calcolare il tempo corrispondente
+% Definire il frame rate e calcolare il tempo corrispondente
 frames = data.Frame;
 fps = 30;
 time = frames / fps;
