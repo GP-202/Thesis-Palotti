@@ -40,7 +40,7 @@ fps = 30;
 time = frames / fps;
 
 % Calcolare il numero massimo di frame disponibile 
-maxFrame = min(720, numFrames); % Selezionare il limite di tepo tra 720 o all'ultimo frame disponibile
+maxFrame = min(720, numFrames); % Selezionare il limite di tempo tra 720 o all'ultimo frame disponibile
 
 % Selezionare i dati fino al massimo numero di frame 
 timeLimited = time(1:maxFrame);
